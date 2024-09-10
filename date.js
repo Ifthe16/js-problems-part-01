@@ -18,3 +18,9 @@ console.log(specificDate.toLocaleDateString());
 console.log(specificDate.toLocaleDateString('en-GB'));
 
 // unix epoc
+
+for (var i = 0; i < 5; i++) {
+    setTimeout(function () {
+        console.log(i);
+    }, 100);
+}
